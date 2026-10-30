@@ -1,0 +1,29 @@
+{
+  "features": [
+    "Fever",
+    "Cough",
+    "Fatigue",
+    "Headache",
+    "Sore_Throat",
+    "Body_Pain",
+    "Nausea",
+    "Vomiting",
+    "Runny_Nose"
+  ],
+  "classes": [
+    "Allergy",
+    "COVID-19",
+    "Cold",
+    "Dengue",
+    "Flu",
+    "Gastritis",
+    "Malaria",
+    "Migraine",
+    "Pneumonia",
+    "Typhoid"
+  ],
+  "target": "Disease",
+  "primary_model": "stacking_model",
+  "imputer_strategy": "most_frequent",
+  "dataset_note": "Synthetic (simulated) symptom dataset generated from the symptom patterns of Disease.csv. It is not real patient data."
+}
